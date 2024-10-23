@@ -1,0 +1,90 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners for container */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Row hover effect */
+}
+
+/* Button styles */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555; /* Darker text color for labels */
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+/* Specific styles for the login page */
+#loginForm {
+    max-width: 400px; /* Limit width for the login form */
+    margin: auto;
+}
+
+#loginForm div {
+    margin-bottom: 20px; /* More space between fields */
+}
